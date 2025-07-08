@@ -14,7 +14,9 @@ init: false
 map:
   - share:rw
 options:
-  message: "Hello world...123"
+  - message: "Hello world...123"
+  - opt1: "opt1 value"
+  - opt2: "opt2 value"
 schema:
   message: "str?"
 image: "ghcr.io/home-assistant/{arch}-addon-example"
